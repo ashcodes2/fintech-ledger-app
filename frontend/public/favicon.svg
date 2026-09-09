@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none">
+  <rect width="32" height="32" rx="8" fill="#0f4c81"/>
+  <!-- Banking Pillar / Vault Geometry -->
+  <path d="M16 6L6 11.5v1.5h20v-1.5L16 6z" fill="#ffffff"/>
+  <rect x="8.5" y="15" width="2.5" height="8" rx="0.75" fill="#e2e8f0"/>
+  <rect x="14.75" y="15" width="2.5" height="8" rx="0.75" fill="#e2e8f0"/>
+  <rect x="21" y="15" width="2.5" height="8" rx="0.75" fill="#e2e8f0"/>
+  <rect x="6" y="24" width="20" height="2" rx="0.5" fill="#ffffff"/>
+  <!-- Status Badge Accent -->
+  <circle cx="23.5" cy="8.5" r="3" fill="#16a34a"/>
+  <circle cx="23.5" cy="8.5" r="1.5" fill="#dcfce7"/>
+</svg>
