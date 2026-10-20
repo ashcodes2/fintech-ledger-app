@@ -298,10 +298,14 @@ export default function App() {
       <div className="auth-wrapper">
         <div className="auth-card">
           <div className="auth-header">
-            <h1 className="auth-title">Fintech Ledger</h1>
+            <h1 className="auth-title">Fintech Ledger - Student Portfolio Demo</h1>
             <p className="auth-subtitle">
               {authMode === 'login' ? 'Sign in to access your accounts' : 'Create a new banking profile'}
             </p>
+          </div>
+
+          <div style={{ background: '#fef3c7', color: '#92400e', padding: '10px', textAlign: 'center', fontSize: '13px' }}>
+            ⚠️ <strong>Student Academic Project:</strong> This is a simulation/portfolio project. Do NOT enter real bank credentials or passwords.
           </div>
 
           {alert && (
@@ -399,7 +403,7 @@ export default function App() {
       {/* Navigation */}
       <header className="navbar">
         <div className="brand" onClick={navigateToHome} style={{ cursor: 'pointer' }} title="Fintech Ledger Home">
-          Fintech Ledger <span className="brand-badge">PROD</span>
+          Fintech Ledger - Student Portfolio Demo <span className="brand-badge">DEMO</span>
         </div>
         <div className="nav-user">
           <div style={{ textAlign: 'right' }}>
