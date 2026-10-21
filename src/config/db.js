@@ -9,8 +9,9 @@ if (process.platform === 'win32') {
 }
 
 function connectToDB() {
+    const mongoUri = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/banking-ledger"
 
-    mongoose.connect(process.env.MONGO_URI, {
+    mongoose.connect(mongoUri, {
         serverSelectionTimeoutMS: 5000,
     })
         .then(() => {
